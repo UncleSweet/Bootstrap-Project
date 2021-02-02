@@ -1,0 +1,220 @@
+* {
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding: 0px;
+}
+
+.container-fluid-header {
+	height: 50px;
+	background-color: #101010;
+}
+
+.row1>div {
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+	color: #C0C0C0;
+}
+
+
+.row1 div span {
+	font-size: 14px;
+}
+
+.row1 div input {
+	outline: none;
+	border-radius: 3px;
+	width: 210px;
+	height: 30px;
+	color: #555555;
+}
+
+.row1 div a {
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+}
+
+.row1 div button {
+	width: 75px;
+	margin-left: 5px;
+}
+
+.form-login input {
+	margin: 10px auto;
+}
+
+.checkbox_login {
+	width: 50%;
+	margin: auto;
+}
+
+.modal_footer{
+	width: 45%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo {
+	margin-left: 50px;
+	display: inline;
+	font-weight: bold;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	color: orangered;
+	font-size: 40px;
+}
+
+.row_nav {
+	position: relative;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	height: 90px;
+}
+
+#nav_content li a {
+	text-align: center;
+	display: block;
+	width: 120px;
+	color: #000000;
+}
+
+#nav_content li:nth-child(1) a {
+	background-color: black;
+	color: white;
+}
+
+#nav_content li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.left,
+.right {
+	display: none;
+}
+
+.h2_hot {
+	font-size: 35px;
+	color: #474141;
+	margin-bottom: 12px;
+}
+
+.h5_hot {
+	color: #9da0a1;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.hot_photo {
+	margin-bottom: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+.h2_gonglue {
+	font-size: 35px;
+	color: white;
+	margin-bottom: 12px;
+}
+
+.h5_gonglue {
+	color: white;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.hot_a_img:hover img {
+	transition: box-shadow 0.3s;
+	box-shadow: 1px 1px 3px 1px #d3d3d3;
+}
+
+.gonglue_content {
+	padding-top: 10px;
+	width: 100%;
+	background-color: white;
+}
+
+.gonglue_content p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+	font-size: 16px;
+}
+
+.gonglue_user {
+	display: flex;
+	padding-left: 5px;
+	padding-right: 5px;
+	justify-content: space-between;
+}
+
+.gonglue_user h5 {
+	font-size: 14px;
+	color: #9da0a1;
+}
+
+.h4 {
+	border-bottom: 2px solid orange;
+	width: 100px;
+	padding-bottom: 11px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.hot_active {
+	display: flex;
+	padding-top: 15px;
+	margin-top: -11px;
+	justify-content: space-between;
+	border-top: 1px solid #9da0a1;
+}
+
+.hot_active_left {
+	width: 49%;
+}
+
+.hot_active_right {
+	width: 49%;
+}
+
+.list-group {
+	width: 100%;
+}
+
+.list-group-item a {
+	display: block;
+	display: flex;
+	height: 28px;
+	line-height: 28px;
+	text-decoration: none;
+	justify-content: space-between;
+	width: 100%;
+	color: black;
+}
+
+.list-group-item a:hover .list_group_text {
+	transition: color 0.2s;
+	color: orangered;
+}
+
+.footer_left {
+	padding: 60px;
+}
+
+.footer_right {
+	padding: 50px;
+}
+
+.footer_right ul li {
+	margin-top: 10px;
+	list-style-type: none;
+}
