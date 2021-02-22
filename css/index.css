@@ -14,11 +14,12 @@
 	font-size: 14px;
 	line-height: 50px;
 	color: #C0C0C0;
+	border:1px solid red;
 }
 
 
 .row1 div span {
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .row1 div input {
