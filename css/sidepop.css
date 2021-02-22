@@ -1,0 +1,148 @@
+#share{
+    width: 210px;
+    height: 315px;
+    border: 1px solid#ccc;
+    position: absolute;
+    top: 200px;
+    left: -211px;
+    background-color: white;
+}
+
+#share h2{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    background: #eee;
+    font-size: 14px;
+    color:#666;
+    font-weight:bold;
+    text-indent: 10px;
+}
+
+#share ul{
+    height: 254px;
+    list-style-type: none;
+    padding: 3px 0 2px 5px ;
+}
+
+#share ul li{
+    width: 96px;
+    float: left;
+    padding: 2px;
+    height: 28px;
+    margin-bottom: 4px;
+}
+
+#share ul li a{
+    display: block;
+    width: 95;
+    height: 26px;
+    line-height: 26px;
+    text-indent: 30px;
+    font-size: 12px;
+    color: #666;
+    background: url(../img//share_bg.png) no-repeat 2px 3px;
+}
+
+#share ul li a.a{
+    background-position: 5px 5px;
+}
+
+#share ul li a.b{
+    background-position: 5px -25px;
+}
+
+#share ul li a.c{
+    background-position: 5px -55px;
+}
+
+#share ul li a.d{
+    background-position: 5px -85px;
+}
+
+#share ul li a.e{
+    background-position: 5px -115px;
+}
+
+#share ul li a.f{
+    background-position: 5px -145px;
+}
+
+#share ul li a.g{
+    background-position: 5px -175px;
+}
+
+#share ul li a.h{
+    background-position: 5px -205px;
+}
+
+#share ul li a.i{
+    background-position: 5px -235px;
+}
+
+#share ul li a.j{
+    background-position: 5px -265px;
+}
+
+#share ul li a.k{
+    background-position: 5px -295px;
+}
+
+#share ul li a.l{
+    background-position: 5px -325px;
+}
+
+#share ul li a.m{
+    background-position: 5px -355px;
+}
+
+#share ul li a.n{
+    background-position: 5px -385px;
+}
+
+#share ul li a.o{
+    background-position: 5px -415px;
+}
+
+#share ul li a.p{
+    background-position: 5px -445px;
+}
+
+#share ul li a:hover{
+    opacity: 0.6;
+    text-decoration: none;
+    background-color: #eee;
+    color: blue;
+}
+
+#share .share_footer{
+    padding-right: 5px;
+    text-align: right;
+    height: 26px;
+    line-height: 26px;
+    background-color: #eee;
+}
+
+#share .share_footer a{
+    display: block;
+    color:#666;
+    background: url('../img/share_bg.png') no-repeat 130px -470px;
+}
+
+#share .share_footer a:hover{
+    opacity: 0.6;
+    text-decoration: none;
+    color: blue;
+}
+
+#share .share_footer span{
+    position: relative;
+    top: -250px;
+    left: 210px;
+    width: 25px;
+    height: 90px;
+    display: block;
+    background: url('../img/share.png') no-repeat;
+    cursor:pointer;
+}
