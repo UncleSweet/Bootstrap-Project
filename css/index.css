@@ -14,7 +14,6 @@
 	font-size: 14px;
 	line-height: 50px;
 	color: #C0C0C0;
-	border:1px solid red;
 }
 
 
@@ -46,8 +45,7 @@
 }
 
 .checkbox_login {
-	width: 50%;
-	margin: auto;
+	width: 100%;
 }
 
 .modal_footer{
