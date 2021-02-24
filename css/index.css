@@ -14,6 +14,7 @@
 	font-size: 14px;
 	line-height: 50px;
 	color: #C0C0C0;
+	border: 1px solid red;
 }
 
 
@@ -38,6 +39,12 @@
 .row1 div button {
 	width: 75px;
 	margin-left: 5px;
+}
+
+.row1 #btn_exit{
+	border: 1px solid red;
+	display: none;
+	float: right;
 }
 
 .form-login input {
